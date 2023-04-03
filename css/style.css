@@ -53,3 +53,28 @@ header .jumbotron .jumbo-box{
     width: 900px;
     background-color: #ee82ee;
 }
+
+main .news{
+    display: flex;
+}
+
+main .news article{
+    height: 550px;
+    width: 60%;
+    background-color: #1e90ff;
+}
+
+main .news aside{
+    height: 550px;
+    width: 40%;
+    background-color: #ffc0cb;
+}
+
+main .news:nth-child(2){
+    background-color: #d3d3d3;
+}
+
+main .news:nth-child(2) article{
+    order: 1;
+}
+
