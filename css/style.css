@@ -13,6 +13,12 @@
     padding: 50px 300px;
 }
 
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 a{
     text-decoration: none;
     color: black
@@ -20,8 +26,6 @@ a{
 
 header nav{
     background-color: #add8e6;
-    display: flex;
-    align-items: center;
     padding: 30px 300px;
 }
 
@@ -45,6 +49,7 @@ header nav .nav-bar{
 header nav .nav-bar li{
     margin: 0 5px;
 }
+
 header nav .login{
     width: 25%;
     text-align: right;
@@ -52,18 +57,12 @@ header nav .login{
 
 header .jumbotron{
     background-color: #00008b;
-    display: flex;
-    justify-content: center;
 }
 
 header .jumbotron .jumbo-box{
     height: 400px;
     width: 900px;
     background-color: #ee82ee;
-}
-
-main .news{
-    display: flex;
 }
 
 main .news article{
@@ -90,6 +89,7 @@ main .news:nth-child(2) article{
 main .poster .poster-box{
     height: 1100px;
     background-color: #228b22;
+    width: 100%;
 }
 
 footer{
@@ -99,10 +99,6 @@ footer{
 footer .footer-menu{
     border-bottom: 2px solid #a9a9a9;
     padding: 10px 300px 30px 300px;
-}
-
-footer .footer-menu .wrapper{
-    display: flex;
 }
 
 footer .footer-menu .wrapper aside{
@@ -128,6 +124,7 @@ footer .footer-nav nav{
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    width: 100%;
 }
 
 footer .footer-nav nav a{
