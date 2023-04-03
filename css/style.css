@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+.dashed-border{
+    border: 2px black dashed;
+
+}
+
+.main-padding{
+    padding: 50px 300px;
+}
+
 header nav{
     background-color: #add8e6;
     display: flex;
@@ -13,7 +22,6 @@ header nav{
 
 header nav ul{
     list-style: none;
-    border: 2px black dashed;
     background-color: #daa520;
     padding: 10px;
 
@@ -34,3 +42,14 @@ header nav .login{
     text-align: right;
 }
 
+header .jumbotron{
+    background-color: #00008b;
+    display: flex;
+    justify-content: center;
+}
+
+header .jumbotron .jumbo-box{
+    height: 400px;
+    width: 900px;
+    background-color: #ee82ee;
+}
