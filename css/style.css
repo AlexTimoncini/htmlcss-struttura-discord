@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header nav{
+    background-color: #add8e6;
+    display: flex;
+    align-items: center;
+    padding: 30px 300px;
+}
+
+header nav ul{
+    list-style: none;
+    border: 2px black dashed;
+    background-color: #daa520;
+    padding: 10px;
+
+}
+
+header nav .logo{
+    width: 25%;
+}
+
+header nav .nav-bar{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+header nav .login{
+    width: 25%;
+    text-align: right;
+}
+
