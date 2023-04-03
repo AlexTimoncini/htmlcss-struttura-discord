@@ -70,7 +70,8 @@ main .news aside{
     background-color: #ffc0cb;
 }
 
-main .news:nth-child(2){
+main .news:nth-child(2),
+main .poster{
     background-color: #d3d3d3;
 }
 
@@ -78,3 +79,7 @@ main .news:nth-child(2) article{
     order: 1;
 }
 
+main .poster .poster-box{
+    height: 1100px;
+    background-color: #228b22;
+}
