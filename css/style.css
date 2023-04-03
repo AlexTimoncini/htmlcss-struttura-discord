@@ -13,6 +13,11 @@
     padding: 50px 300px;
 }
 
+a{
+    text-decoration: none;
+    color: black
+}
+
 header nav{
     background-color: #add8e6;
     display: flex;
@@ -82,4 +87,47 @@ main .news:nth-child(2) article{
 main .poster .poster-box{
     height: 1100px;
     background-color: #228b22;
+}
+
+footer{
+    background-color: #23272a;
+}
+
+footer .footer-menu{
+    border-bottom: 2px solid #a9a9a9;
+    padding: 10px 300px 30px 300px;
+}
+
+footer .footer-menu .wrapper{
+    display: flex;
+}
+
+footer .footer-menu .wrapper aside{
+    height: 600px;
+    background-color: #f08080;
+    width: 30%;
+}
+
+footer .footer-menu .wrapper .menu-list{
+    height: 600px;
+    background-color: #20b2aa;
+    width: calc(70% / 4);
+    border-color: white;
+}
+
+footer .footer-nav{
+    padding: 20px 300px 0 300px;
+}
+
+footer .footer-nav nav{
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+footer .footer-nav nav a{
+    background-color: #ffb6c1;
+    padding: 10px;
 }
