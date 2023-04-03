@@ -42,6 +42,9 @@ header nav .nav-bar{
     justify-content: center;
 }
 
+header nav .nav-bar li{
+    margin: 0 5px;
+}
 header nav .login{
     width: 25%;
     text-align: right;
